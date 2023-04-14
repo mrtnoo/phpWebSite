@@ -14,16 +14,62 @@ if(isset($_SESSION['usuario'])!="mrtn"){
   
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <style>
+        
+        #cerrar{
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #ff6b6b;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  top: 0;
+  right: 10%;
+  margin-top: 3px;
+}
 
+#cerrar:hover {
+  transform: translateY(+5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+#a{
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #1a237e;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 3px;
+}
+
+#a:hover {
+  transform: translateY(+5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+        
+    
+  </style>
 </head>
 <body>
-jiiiiiiiiiii
+    
 <div class="container">
 
-    <a href="index.php" >Inicio </a>
-        <a href="portafolio.php" > Portafolio </a>
-        <a href="cerrar.php" > Cerrar</a>
-        <a href="login.php" > login</a>
+<a name="" id="a" class="btn btn-primary" href="index.php" role="button">Inicio</a>
+<a name="" id="a" class="btn btn-primary" href="portafolio.php" role="button">Agendar</a>
+<a name="" id="cerrar" class="btn btn-danger" href="cerrar.php" role="button">Cerrar</a>
+
+
 
      
     
