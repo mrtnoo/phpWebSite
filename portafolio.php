@@ -3,7 +3,7 @@
 <?php
 
 if($_POST){
-    print($_POST);
+    print_r($_POST);
 }
 
 $objconexion = new Conexion();
